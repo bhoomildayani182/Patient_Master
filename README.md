@@ -1,33 +1,70 @@
-# application.properties file has been already configured MySQL related properties as follows (Just specify your id in the data source URL):
-•	spring.datasource.url=jdbc:mysql://172.16.12.96:3306/{yourId} (e.g. yourId=20IT001)  
-•	spring.datasource.username=root  
-•	spring.datasource.password=Abcd@1234  
-•	spring.jpa.hibernate.ddl-auto=update  
-•	spring.jpa.show-sql=true  
-# Perform the following task related to Spring Boot application. (16 Marks)
-1.	Create a Spring Boot rest controller named PatientController in the controllers package.
-2.	Create an entinty class Patient with patientId, name, address fields in the entities package.
-3.	Create a Repository PatientRecordRepository in the repositories package.
-4.	Create an endpoint to get list of patients(/patient) (GetMapping)
-5.	Create an endpoint to get specific patient (/patient/{patientId}) information. (GetMapping)
-6.	Create an endpoint to add the patient record to the database. (PostMapping)
-7.	Create an endpoint to update the patient record to the database. (PutMapping)
-8.	Create an endpoint to delete the patient record to the database. (DeleteMapping)
+# Getting Started with Create React App
 
-# Perform the following task related to React Js application. (10 Marks)
-Initial React JS app is created in the webapps folder. Following modules are already installed (just execute command ""npm install" before "npm start"):  
-•	react-bootstrap (Also added the required dependancy in index.html)  
-•	react-router  
-•	axios  
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Create components to perform the operation (add, update, delete) as we have learnt in the labs.
-# Once the task is over, push the code to git repository as follows: (4 Marks)
-execute following commands from the Intellij terminal root directory
-## Command to create a new branch on the repository
-git checkout -b {yourId} 
-## Command to add code to new branch
-git add .
-## Command to commit to new branch
-git commit -m "Completed the task"
-## Command to push the project to new branch
-git push --set-upstream origin {yourId}
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
